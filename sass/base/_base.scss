@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+
+    @include respond(tab-land){
+        font-size: 9px;
+    }
+    @include respond(tab){
+        font-size: 9px;
+    }
+    @include respond(phone){
+        font-size: 8px;
+    }
+}
+body {
+    position: relative;
+    font-family: $font-d;
+    // font-weight: 300;
+    background-color: var(--color-std);
+    line-height: 1.6;
+    color: #212121;
+}
+::-moz-selection {
+    background-color: var(--color-s-light);
+    color: var(--color-p-dark);
+}
+  
+::selection {
+    background-color: var(--color-s-light);
+    color: var(--color-p-dark);
+}

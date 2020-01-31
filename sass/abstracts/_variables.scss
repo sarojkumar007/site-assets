@@ -1,0 +1,17 @@
+:root {
+    --color-std: #f9f7f7;
+    --color-p-light: #dbe2ef;
+    --color-p-mid: #3f72af;
+    --color-p-dark: #112d4e;
+    --color-s-light: #fe346e;
+    --color-s-dark: #b21f66;
+    --color-border: #999;
+}
+
+$linear-gradient: linear-gradient(to bottom right, var(--color-p-mid), var(--color-p-dark));
+$linear-gradient2: linear-gradient(45deg, var(--color-p-light), var(--color-std));
+
+$radial-gradient: radial-gradient( var(--color-p-light), var(--color-p-mid), var(--color-p-dark));
+
+$font-d: 'Courier Prime',monospace;
+$font-s: 'Montserrat',sans;

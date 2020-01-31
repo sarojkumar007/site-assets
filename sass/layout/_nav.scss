@@ -1,0 +1,32 @@
+//
+.sp-navbar{
+    position: absolute;
+    right: 0;
+    z-index: 200;
+    width: 100%;
+    & ul{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        & li {
+            list-style: none;
+            margin-right: 2rem;
+            & a{
+                display: inline-block;
+                padding: 1rem 1.3rem;
+                text-decoration: none;
+                font-family: $font-d;
+                color: var(--color-s-light);
+                font-weight: 600;
+                font-size: 1.6rem;
+                letter-spacing: 1px;
+                border: 2px solid transparent;
+                border-radius: 10px;
+                transition: border .3s;
+                &:hover,&:focus{
+                    border: 2px solid var(--color-s-light);
+                }
+            }
+        }
+    }
+}

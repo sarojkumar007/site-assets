@@ -1,0 +1,11 @@
+//
+.sp-link{
+		text-decoration: none;
+		color: var(--color-s-light);
+		font-family: $font-s;
+		font-weight: 600;
+		// transition: color .3s;
+		&:hover{
+				text-decoration: underline;
+		}
+}

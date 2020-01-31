@@ -1,0 +1,23 @@
+//
+.sp-footer{
+	background-color: var(--color-p-dark);
+	color: #ddd;
+	font-family: $font-s;
+	&-copy{
+		padding: 2rem;
+		font-size: 1.4rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		& span a{
+			letter-spacing: 1px;
+			font-weight: 400;
+		}
+	}
+	&--icon{
+		width: 1.8rem;
+		height: 1.8rem;
+		fill: #cccccc;
+		margin-right: 1rem;
+	}
+}

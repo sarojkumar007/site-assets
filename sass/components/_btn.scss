@@ -1,0 +1,55 @@
+//
+.cta-main{
+	padding: .6rem 1.2rem;
+	border-radius: .5rem;
+	cursor: pointer;
+	text-transform: none !important;
+	&:hover{
+		text-decoration: none !important;
+	}
+	&--git{
+		display: inline-flex;
+		align-items: center;
+		background-color: #fff;
+		border: 2px solid #333;
+		color: #333 !important;
+		transition:background-color .3s, color .3s;
+		&:hover,&:focus{
+			background-color: #333;
+			color: #fff !important;
+		}
+	}
+	&--git:hover > &--icon,&--git:focus > &--icon{
+		fill: #fff;
+	}
+	&--icon{
+		width: 2rem;
+		height: 2rem;
+		fill: currentColor;
+		margin-right: .5rem;
+		transition: fill .3s;
+	}
+	&--submit{
+		padding: .8rem 1.6rem; // Only for this btn
+		margin-top: 2rem;
+		font-size: 1.6rem;
+		font-family: inherit;
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #fff;
+		border: 2px solid var(--color-s-light);
+		color: var(--color-s-light) !important;
+		transition:background-color .3s, color .3s;
+		& svg{
+			margin-right: 1rem; // Only for this btn
+		}
+		&:hover,&:focus{
+			background-color: var(--color-s-light);
+			color: #fff !important;
+		}
+	}
+	&--submit:hover > &--icon,&--submit:focus > &--icon{
+		fill: #fff;
+	}
+}
