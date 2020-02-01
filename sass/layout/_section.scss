@@ -70,15 +70,18 @@
         height: 1.5rem;
         fill: var(--color-p-dark);
         margin-right: 1rem;
-    }
-    &-school, &-time{
         display: flex;
         align-items: center;
+    }
+    &-school, &-time{
         &:not(:last-child){
             margin-right: 1rem;
         }
         & span{
             font-size: 1.3rem;
+        }
+        @include respond(phone){
+            margin-right: 0;
         }
     }
 }
